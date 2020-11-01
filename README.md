@@ -1,4 +1,4 @@
-# HTML, CSS and Javascript
+# HTML, CSS and Javascript 
 
 Learning material for HTML, CSS and basic Javascript
 
@@ -10,6 +10,7 @@ Learning material for HTML, CSS and basic Javascript
   - [CSS](#css)
   - [Javascript](#javascript)
   - [Glossary](#glossary)
+
 
 # HTML
 
