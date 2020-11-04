@@ -1,8 +1,5 @@
 # Terms
 
-
-98-375 TERMS
-
 script async
 Script defer
 input disabled

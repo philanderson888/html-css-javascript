@@ -1,14 +1,31 @@
 # CANVAS
 
-Better for complex scenes, real-time mathematical animations, high-performance elements (filters and ray tracers), and video manipulation.
+## Contents
+
+- [CANVAS](#canvas)
+  - [Contents](#contents)
+  - [Sample Canvas Application](#sample-canvas-application)
+  - [Canvas](#canvas-1)
+  - [Canvas](#canvas-2)
+  - [Canvas Terms](#canvas-terms)
+
+Good for complex scenes, real-time mathematical animations, high-performance elements (filters and ray tracers), and video manipulation.
+
 Canvas is better for real time data
+
 Drawn images cannot be modified by scripting and CSS.
+
 Image types are bitmaps and not easily scalable.
+
 Must add an ID to add the element to the HTML DOM
+
 Must specify which application to run when canvas is clicked
+
 'script' has two functions
-Firstly : draw interface
-Secondly : process click event
+
+- Firstly : draw interface
+
+- Secondly : process click event
 
 
 ## Sample Canvas Application
@@ -112,7 +129,9 @@ CANVAS TRANSFORM
 
 
 
-Canvas
+## Canvas
+
+
 http://www.html5canvastutorials.com/	
 
 
@@ -191,31 +210,6 @@ context
 moveTo
 lineTo
 stroke
-
-## SVG Scalar Vector Graphics
-
-<svg>
-Used to create images which scale well on any screen at any dimension
-context
-moveTo
-lineTo
-stroke
-
-```html
-<svg width="200" height="200" style="background-color:#c5ebea">
-<circle cx="100" cy="100" r="50" stroke="blue" stroke-width="2" fill="yellow" />
-</svg>
-<svg width="200" height="200" style="background-color:#c5ebea">
-    <ellipse cx="100" cy="100" rx="50" ry="80" stroke="blue" 
-                stroke-width="2" fill="yellow" />
-</svg>
-<svg width="200" height="200" style="background-color:#c5ebea">
-    <rect x="50" y="50" width="100" height="100" fill="pink" stroke="blue" stroke-width="2"/>
-</svg>
-<svg width="200" height="200" style="background-color:#c5ebea">
-    <rect x="50" y="50" width="100" height="100" fill="pink" stroke="blue" stroke-width="2" class="transparent" />
-</svg>
-```
 
 
 ## Canvas Terms

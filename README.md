@@ -8,6 +8,8 @@ Learning material for HTML, CSS and basic Javascript
   - [Contents](#contents)
 - [HTML](#html)
   - [CSS](#css)
+  - [Canvas](#canvas)
+  - [SVG](#svg)
   - [Javascript](#javascript)
   - [Glossary](#glossary)
 
@@ -20,9 +22,17 @@ Learning material for HTML, CSS and basic Javascript
 
 [CSS](notes/css.md)
 
+## Canvas
+
+[Canvas](notes/canvas.md)
+
+## SVG
+
+[SVG](notes/svg.md)
+
 ## Javascript
 
-[Javascript](notes/javascript.md)
+[Javascript](https://github.com/philanderson888/javascript)
 
 ## Glossary
 
