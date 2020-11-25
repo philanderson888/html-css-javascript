@@ -6,7 +6,7 @@ Learning material for HTML, CSS and basic Javascript
 
 - [HTML, CSS and Javascript](#html-css-and-javascript)
   - [Contents](#contents)
-- [HTML](#html)
+  - [HTML](#html)
   - [CSS](#css)
   - [Canvas](#canvas)
   - [SVG](#svg)
@@ -14,7 +14,7 @@ Learning material for HTML, CSS and basic Javascript
   - [Glossary](#glossary)
 
 
-# HTML
+## HTML
 
 [HTML](notes/html.md)
 

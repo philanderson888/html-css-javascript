@@ -668,66 +668,53 @@ clear:both	CLEAR FLOATS
 
 # CSS Complete Notes
 
-= CSS (MODULE 6)
-Internal
-
-```
-	<style>
-External
-	link <link rel="stylesheet" type="text/css" href="theme.css">
-	UNIFORMITY FOR SITE
-	
-Inline
-
-	<button style="background-color:red;">
-	
-	
 @import url('url') print       	MUST BE FIRST LINE OF CSS FILE.
-								SLOW - DON'T USE
-		screen
-		
-		screen and (orientation:landscape)
-		
-		projection
-		
-		tv
-		
+								SLOW - DON'T USE		
 		
 loadjscssfile("abc.css","css");					DYNAMIC ADD FILE
 
 loadjscssfile("abc.js","js")					DYNAMIC ADD FILE
 
-```
+
+
 
 CSS checking
 [CanIUse.com](http://caniuse.com/)
 
 Media Types
+
 @media screen/print/aural/handheld
 
-```
+
+```css
 @media='screen' and (max-width:768px)			MOBILE WIDTHS
-
 ```
+media
 
-ORDER OF APPLICATION
-!TRUMPS ALL
-LAST STYLESHEET APPLIED WINS
+	screen
+		
+	screen and (orientation:landscape)
+		
+	projection
+		
+	tv
 
-```
-LAST STYLE APPLIED WINS
 
-LAST RULE WINS
 
-MOST SPECIFIC WINS
+## specifity
 
-	# IS MOST SPECIFIC
+	!TRUMPS ALL
+
+	LAST STYLE APPLIED WINS
+
+	LAST RULE WINS
+
+	MOST SPECIFIC WINS
+
+		# IS MOST SPECIFIC
 	
-	THEN
-	
-	. CLASS
+		THEN . CLASS
 
-```
 
 CSS origins
 author=developer	THIS ARE THE ONES THE DEVELOPER MAKES!

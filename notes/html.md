@@ -2,6 +2,32 @@
 
 ## Contents
 
+- [Introduction](#introduction)
+  - [HTML / CSS / JAVASCRIPT VALIDITY](#html--css--javascript-validity)
+  - [Colours](#colours)
+  - [What is HTML?](#what-is-html)
+  - [HTML5](#html5)
+  - [HTML5 Semantic Elements](#html5-semantic-elements)
+  - [Javascript](#javascript)
+  - [Selecting elements](#selecting-elements)
+  - [Creating Elements](#creating-elements)
+  - [Declaring variables](#declaring-variables)
+  - [Data types](#data-types)
+  - [JSON](#json)
+  - [SetTimeout and SetInterval](#settimeout-and-setinterval)
+  - [HTML Continued](#html-continued)
+  - [Rarer elements](#rarer-elements)
+  - [HTML5 changed elements](#html5-changed-elements)
+  - [SVG](#svg)
+  - [DATA-](#data-)
+  - [HTML Forms](#html-forms)
+  - [Input Elements](#input-elements)
+  - [Input Attributes](#input-attributes)
+  - [Regex](#regex)
+  - [Output Elements](#output-elements)
+  - [Tables](#tables)
+  - [Table](#table)
+  - [abbr](#abbr)
 - [innerHtml](#innerhtml)
 - [data-*](#data--1)
 
@@ -733,34 +759,24 @@ function showDetails(animal) {
 ```
 
 
+## CODEC
 
+SOFTWARE DELIBERATELY MATCHING A PARTICULAR AUDIO/VIDEO FORMAT TO ENABLE PLAYBACK
 
-
-
-  CODEC
-
-    SOFTWARE DELIBERATELY MATCHING A PARTICULAR AUDIO/VIDEO FORMAT TO ENABLE        PLAYBACK
-
-  IMAGE
-
-    <img src= width= height= title="HOVER: WILL DISPLAY"  alt="YOUR IMAGE CANNOT
-        BE LOADED"
+## figure and figcaption
     
-
-  FIGURE
-    
-    <figcaption>THIS IS A BIG TITLE COVERING 5 IMAGES</figcaption>
-
-    <figure
-
-      MULTIPLE IMAGES INSIDE ONE FIGURE ELEMENT
-
-  
+```html
+<figure>
+  <figcaption>Several images</figcaption>
+  <img src=".." />
+  <img src=".." />
+  <img src=".." />
+```
 
 
+## form
 
-  <form>
-
+```
     <input     autofocus PAGE LOAD : CURSOR BLINK IN THIS FIELD
               SO USER TYPES, ALREADY IN THIS BOX
 
@@ -815,23 +831,23 @@ function showDetails(animal) {
   <input required
 
     required="required"
+```
+## regex
 
-  REGULAR EXPRESSIONS
+```html
+<input pattern="[0-9]{5}" />      FORCES 5 NUMBERS
+<input pattern="[a-zA-Z]{2}" />   2 alpha
+```
 
-    <input pattern="[0-9]{5}"      FORCES 5 NUMBERS
-    
-    <input pattern="[a-zA-Z]{2}"     2 alpha
-
-      \w      any character  a-z A-Z 0-9
-
-      \s    white space
-      \S    non-white space
-
-      /g    global
-
-      var myregex = "/searchterm/"
-
-      var myregex = "/searchterm/g"          GLOBAL SEARCH MULTIPLE HITS      
-        
-
-  
+```js
+// any character alphanumeric a-z and 0-9
+\w      
+// white space
+\s    
+// non-white space
+\S  
+// first search result
+var myregex = "/searchterm/"
+// global search with multiple hits
+var myregex = "/searchterm/g"         
+```
