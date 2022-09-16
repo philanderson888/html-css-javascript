@@ -211,10 +211,12 @@ p::before {
 }
 ```
 
+# CSS Variables
+
+Use variables in CSS to ease the process of providing standard colours and margins and padding across the app
 
 
-
-## CSS Preprocessing
+# CSS Preprocessing
 
 Pre-processors extend CSS with
 
