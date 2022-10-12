@@ -1279,8 +1279,21 @@ break-before
 display
 flex/inline-flex	CREATE FLEX CONTAINER
 
-```
+			
+### grid
+			
+codepen example
+
+https://codepen.io/una/pen/YzyYbBx
+			
+```css
 grid/inline-grid				CREATE GRID CONTAINER
+			
+/*
+layout using fractional widths fr, absolute pixels or auto to take up remaining space
+*/
+			
+			
 
 	display:grid{grid-columns:1fr "content-col" 1fr 1fr}    3 EQUAL COLUMNS
 	display:grid{grid-rows:fit-content "content-row" 1fr 1fr}
@@ -1318,7 +1331,20 @@ grid/inline-grid				CREATE GRID CONTAINER
 	
 		defined by grid-template, into which we put grid items or 
 			grid-definition-columns/rows
-	
+			
+			
+also
+			
+min
+			
+max 
+			
+clamp
+			
+auto-fit can auto fill to place children into parent
+
+1linelayouts.glitch.me
+```
 	
 
 inline-block
