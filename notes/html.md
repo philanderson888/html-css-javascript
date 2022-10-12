@@ -851,3 +851,25 @@ var myregex = "/searchterm/"
 // global search with multiple hits
 var myregex = "/searchterm/g"         
 ```
+      
+## aria accessibility
+
+roles
+      - [https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+        
+spec
+      - [https://www.w3.org/TR/wai-aria-1.1/](https://www.w3.org/TR/wai-aria-1.1/)
+        
+best practices
+      
+      - [https://www.w3.org/TR/wai-aria-practices-1.1/](https://www.w3.org/TR/wai-aria-practices-1.1/)
+        
+example
+      
+      - [https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.1pattern/listbox-combo.html](https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.1pattern/listbox-combo.html)
+        
+```html
+<div role="combobox">
+<input role="searchbox">
+<button role="listbox">
+```
